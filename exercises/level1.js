@@ -23,6 +23,7 @@ const user = {
  * @returns {string}
  */
 function level1exercise1(user) {
+  return user.password
   
 }
 
@@ -33,7 +34,8 @@ function level1exercise1(user) {
  * @returns {string}
  */
 function level1exercise2(user) {
-
+  return user.first + " " + user.last
+  
 }
 
 /**
@@ -43,7 +45,7 @@ function level1exercise2(user) {
  * @returns {string}
  */
 function level1exercise3(user) {
-  
+  return "Hello," + " " + user.first + " " + user.last + '!'
 }
 
 /**
@@ -53,6 +55,8 @@ function level1exercise3(user) {
  * @returns {number}
  */
 function level1exercise4(user) {
+  let age = 2021 - user.birthYear
+  return age
 
 }
 
@@ -63,6 +67,8 @@ function level1exercise4(user) {
  * @returns {string}
  */
 function level1exercise5(user) {
+  let all = user.first.toUpperCase() + " " + user.last.toUpperCase()
+  return all
 
 }
 
@@ -73,5 +79,7 @@ function level1exercise5(user) {
  * @returns {string}
  */
 function level1exercise6(user) {
+  let initials = user.first[0] + user.last[0]
+  return initials
 
 }
